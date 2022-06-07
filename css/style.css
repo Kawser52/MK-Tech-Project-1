@@ -60,7 +60,7 @@ body{
 }
 .btn-design{
     background: #FF6F00;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border: none;
     color: white;
     font-weight: 600;
@@ -69,4 +69,35 @@ body{
 }
 .btn-design:hover{
     background: #644F9C;
+}
+
+/* start service section */
+
+.service{
+    background: #f3f3f3;
+}
+.service-content{
+    text-align: center;
+}
+.circle i{
+    font-size: 100px;
+    color: #644F9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: 50%;
+    background: white;
+    padding: 0.5em 0.6em;
+}
+
+
+.btn-design-service{
+    background:#644F9C;
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 15px;
 }
